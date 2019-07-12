@@ -1,4 +1,4 @@
-package raceCondition.synch;
+package raceCondition.Asynch;
 
 import java.util.Arrays;
 import java.util.concurrent.locks.Condition;

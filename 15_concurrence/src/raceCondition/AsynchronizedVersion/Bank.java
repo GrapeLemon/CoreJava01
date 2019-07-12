@@ -1,4 +1,4 @@
-package raceCondition.synchronizedVersion;
+package raceCondition.AsynchronizedVersion;
 
 import java.util.Arrays;
 

@@ -1,9 +1,9 @@
-package raceCondition;
+package deadlock;
 
 import raceCondition.AsynchronizedVersion.Bank;
 
 public class UnsynchBankTest {
-    public static final int NACCOUNTS = 100;
+    public static final int NACCOUNTS = 10;
     public static final double INITIAL_BALANCE = 1000;
     public static final double MAX_AMOUNT = 1000;
     public static final double DELAY = 10;
@@ -16,7 +16,7 @@ public class UnsynchBankTest {
               try {
                   while(true){
                       int toAccount = (int)(bank.size() * Math.random());
-                      double amount = MAX_AMOUNT * Math.random();
+                      double amount = 2 * MAX_AMOUNT * Math.random();   //修改每次交易的金额上限，观察是否会出现死锁
                       bank.transfer(fromAccount,toAccount,amount);
                       Thread.sleep((int)(DELAY * Math.random()));
                   }

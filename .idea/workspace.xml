@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4919d6c3-0dfb-4d03-9eca-6d75714528b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15_concurrence/src/raceCondition/synch/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15_concurrence/src/raceCondition/synchBlock/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15_concurrence/src/raceCondition/synchronizedVersion/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_concurrence/src/deadlock/UnsynchBankTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15_concurrence/src/raceCondition/UnsynchBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/15_concurrence/src/raceCondition/UnsynchBankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15_concurrence/src/raceCondition/synch/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/15_concurrence/src/raceCondition/Asynch/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15_concurrence/src/raceCondition/synchronizedVersion/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/15_concurrence/src/raceCondition/AsynchronizedVersion/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15_concurrence/src/raceCondition/unsynch/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/15_concurrence/src/raceCondition/Aunsynch/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/15_concurrence/raceCondition/UnsynchBankTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/15_concurrence/raceCondition/UnsynchBankTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/15_concurrence/raceCondition/synch/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/15_concurrence/raceCondition/synchBlock/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/15_concurrence/raceCondition/synchBlock/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/15_concurrence/raceCondition/synchronizedVersion/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/15_concurrence/raceCondition/unsynch/Bank.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,24 +41,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/synchronizedVersion/Bank.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/Asynch/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="500">
+              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15_concurrence/src/deadlock/UnsynchBankTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/AsynchronizedVersion/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/synchBlock/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="33" />
-              <folding>
-                <element signature="e#1678#1679#0" expanded="true" />
-                <element signature="e#1716#1717#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="275">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -80,10 +101,11 @@
         <option value="$PROJECT_DIR$/15_concurrence/src/raceCondition/synchronizedVersion/Bank.java" />
         <option value="$PROJECT_DIR$/15_concurrence/src/raceCondition/UnsynchBankTest.java" />
         <option value="$PROJECT_DIR$/15_concurrence/src/raceCondition/synchBlock/Bank.java" />
+        <option value="$PROJECT_DIR$/15_concurrence/src/deadlock/UnsynchBankTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1791" />
     <option name="y" value="120" />
     <option name="width" value="1936" />
@@ -94,8 +116,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,23 +149,7 @@
               <item name="15_concurrence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="raceCondition" type="462c0819:PsiDirectoryNode" />
-              <item name="synch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoreJava01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoreJava01" type="462c0819:PsiDirectoryNode" />
-              <item name="15_concurrence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="raceCondition" type="462c0819:PsiDirectoryNode" />
-              <item name="synchBlock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoreJava01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoreJava01" type="462c0819:PsiDirectoryNode" />
-              <item name="15_concurrence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="raceCondition" type="462c0819:PsiDirectoryNode" />
-              <item name="synchronizedVersion" type="462c0819:PsiDirectoryNode" />
+              <item name="Asynch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,6 +163,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="deadlock" />
       <recent name="raceCondition.synchBlock" />
       <recent name="raceCondition.synchronizedVersion" />
       <recent name="raceCondition.synch" />
@@ -174,9 +181,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.UnsynchBankTest (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnsynchBankTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deadlock.UnsynchBankTest" />
+      <module name="15_concurrence" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="deadlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,6 +249,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnsynchBankTest (1)" />
         <item itemvalue="Application.UnsynchBankTest" />
       </list>
     </recent_temporary>
@@ -246,11 +268,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49777284" visible="true" weight="0.2553305" />
-      <window_info id="Structure" order="1" sideWeight="0.5022272" side_tool="true" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49665925" visible="true" weight="0.25799572" />
+      <window_info id="Structure" order="1" sideWeight="0.5033408" side_tool="true" visible="true" weight="0.25799572" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -258,7 +280,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51224947" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23273942" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,7 +304,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/15_concurrence/src/raceCondition/synch/Bank.java</url>
+          <url>file://$PROJECT_DIR$/15_concurrence/src/raceCondition/Asynch/Bank.java</url>
           <line>32</line>
           <properties />
           <option name="timeStamp" value="1" />
@@ -308,7 +330,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/unsynch/Bank.java">
+    <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/Aunsynch/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
@@ -346,20 +368,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/synch/Bank.java">
+    <entry file="file://$PROJECT_DIR$/15_concurrence/src/deadlock/UnsynchBankTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="400">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/synchronizedVersion/Bank.java">
+    <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/AsynchronizedVersion/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="25">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/synchBlock/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -370,13 +396,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/synchBlock/Bank.java">
+    <entry file="file://$PROJECT_DIR$/15_concurrence/src/raceCondition/Asynch/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="33" />
+        <state relative-caret-position="500">
+          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
           <folding>
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
