@@ -1,6 +1,6 @@
 package raceCondition;
 
-import raceCondition.unsynch.Bank;
+import raceCondition.synchronizedVersion.Bank;
 
 public class UnsynchBankTest {
     public static final int NACCOUNTS = 100;
