@@ -17,18 +17,19 @@ import java.util.concurrent.TimeUnit;
 public class Task3 {
     public static void main(String[] args) {
         Runnable runnable = new Runnable() {
+            int i=0;
             @Override
             public void run() {
                 //task,you can do something by this Thread
-                System.out.println("Hello!!");
+                System.out.println("Hello!!" + " " + i++);
             }
         };
         ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
         //有AtFixedRate作为后缀的话就是周期性任务
-//        service.scheduleAtFixedRate(runnable,10,1, TimeUnit.SECONDS);
+        service.scheduleAtFixedRate(runnable,2,1, TimeUnit.SECONDS);
 
         //只有schdule的话就是一次性任务，但是线程并不会终止,估计是使用了线程池的原因
-        service.schedule(runnable,5, TimeUnit.SECONDS);
+//        service.schedule(runnable,5, TimeUnit.SECONDS);
 
     }
 }

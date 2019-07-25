@@ -21,7 +21,7 @@ public class Task2 {
             }
         };
         Timer timer = new Timer();
-        long delay = 5 * 1000;
+        long delay = 2 * 1000;
         long intevalPeroid = 1 * 1000;
         /*
             设置延迟多久启动和间隔多久执行1次，要反复执行直到线程终止
@@ -29,12 +29,12 @@ public class Task2 {
             周期性任务的本质就是: 在线程没有死亡的情况下，会反复按设置执行任务！
             一开始有个惯性思维，觉得这个方法好像给人感觉不会启动线程去执行，导致一直 理解不了 -> 记忆不了
          */
-        //timer.scheduleAtFixedRate(task,delay,intevalPeroid);
+        timer.scheduleAtFixedRate(task,delay,intevalPeroid);
 
         /*
             设置延迟多久启动，因为没有间隔时间，所以只会执行一次
             执行完以后线程也不会终止，这就有点麻烦了，看来一定要用线程池进行管理
          */
-        timer.schedule(task,delay);
+//        timer.schedule(task,delay);
     }
 }

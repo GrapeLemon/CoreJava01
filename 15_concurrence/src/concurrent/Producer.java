@@ -1,6 +1,5 @@
 package concurrent;
 
-import java.text.SimpleDateFormat;
 import java.util.concurrent.BlockingQueue;
 
 /**
@@ -18,8 +17,7 @@ public class Producer implements Runnable{
         try {
 
             while(true){
-                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd");
-                queue.put();
+                queue.put("A");
                 Thread.sleep(500);
             }
         } catch (InterruptedException e) {

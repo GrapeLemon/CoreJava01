@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/09_Collection/09_Collection.iml" filepath="$PROJECT_DIR$/09_Collection/09_Collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/15_concurrence/15_concurrence.iml" filepath="$PROJECT_DIR$/15_concurrence/15_concurrence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContentFromWeb/ContentFromWeb.iml" filepath="$PROJECT_DIR$/ContentFromWeb/ContentFromWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreJava01.iml" filepath="$PROJECT_DIR$/CoreJava01.iml" />
     </modules>
   </component>

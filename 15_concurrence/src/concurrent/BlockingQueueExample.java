@@ -10,6 +10,6 @@ public class BlockingQueueExample {
         Consumer consumer = new Consumer(queue);
         new Thread(producer).start();
         new Thread(consumer).start();
-       // Thread.sleep(4000);
+        Thread.sleep(4000);
     }
 }
