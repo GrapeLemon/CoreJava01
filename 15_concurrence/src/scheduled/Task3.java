@@ -26,10 +26,10 @@ public class Task3 {
         };
         ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
         //有AtFixedRate作为后缀的话就是周期性任务
-        service.scheduleAtFixedRate(runnable,2,1, TimeUnit.SECONDS);
+       // service.scheduleAtFixedRate(runnable,2,1, TimeUnit.SECONDS);
 
         //只有schdule的话就是一次性任务，但是线程并不会终止,估计是使用了线程池的原因
-//        service.schedule(runnable,5, TimeUnit.SECONDS);
+       service.schedule(runnable,10000, TimeUnit.MILLISECONDS);
 
     }
 }
