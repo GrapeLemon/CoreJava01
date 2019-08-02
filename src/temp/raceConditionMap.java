@@ -1,16 +1,17 @@
 package temp;
 
-public class MutilThreadThread {
-    public static int num = 0;
-    public static synchronized void add(){
-        num++;
-        System.out.println(Thread.currentThread().toString() + num);
-        sub();
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+public class raceConditionMap {
+    public static Map<String,Integer> maps =  new ConcurrentHashMap<>();
+    public static int i = 0;
+
+    public static void add(){
+        maps.put("1",i++);
+        System.out.println(Thread.currentThread().toString() + maps.get("1"));
     }
-    public static void sub(){
-        num--;
-        System.out.println(Thread.currentThread().toString() + num);
-    }
+
     public static void main(String[] args) {
         for (int i = 0; i < 2; i++) {
             new Thread(new Runnable() {
@@ -29,3 +30,4 @@ public class MutilThreadThread {
         }
     }
 }
+
