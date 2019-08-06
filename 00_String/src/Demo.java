@@ -3,5 +3,6 @@ public class Demo {
         String s1 = null;
         String s2 = "";
         String s3 = " ";
+        s1.hashCode();
     }
 }

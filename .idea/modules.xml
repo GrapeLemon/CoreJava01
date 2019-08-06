@@ -5,10 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/00_String/00_String.iml" filepath="$PROJECT_DIR$/00_String/00_String.iml" />
       <module fileurl="file://$PROJECT_DIR$/00_Time/00_Time.iml" filepath="$PROJECT_DIR$/00_Time/00_Time.iml" />
       <module fileurl="file://$PROJECT_DIR$/00_async/00_async.iml" filepath="$PROJECT_DIR$/00_async/00_async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00_io/00_io.iml" filepath="$PROJECT_DIR$/00_io/00_io.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_Collection/09_Collection.iml" filepath="$PROJECT_DIR$/09_Collection/09_Collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/15_concurrence/15_concurrence.iml" filepath="$PROJECT_DIR$/15_concurrence/15_concurrence.iml" />
       <module fileurl="file://$PROJECT_DIR$/ContentFromWeb/ContentFromWeb.iml" filepath="$PROJECT_DIR$/ContentFromWeb/ContentFromWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreJava01.iml" filepath="$PROJECT_DIR$/CoreJava01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HandleJSON/HandleJSON.iml" filepath="$PROJECT_DIR$/HandleJSON/HandleJSON.iml" />
       <module fileurl="file://$PROJECT_DIR$/gzbbz/gzbbz.iml" filepath="$PROJECT_DIR$/gzbbz/gzbbz.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk8/jdk8.iml" filepath="$PROJECT_DIR$/jdk8/jdk8.iml" />
     </modules>
