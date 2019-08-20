@@ -4,10 +4,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/handleJSON/pom.xml" />
+        <option value="$PROJECT_DIR$/learnGuava/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8.0_181" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
