@@ -5,7 +5,7 @@ import java.util.List;
 @Data
 public class ResultVO {
     private String currentCity;
-    List<IndexVO> indexVOS;
+    private List<IndexVO> indexVOS;
     @Data
     public static class IndexVO {
         private String title;
